@@ -100,7 +100,7 @@ var wizardFireballColorChange = function () {
 
 var onPopupEscPress = function (evt) {
   if (evt.key === ESC_KEY) {
-    if (usernameInput != document.activeElement) {
+    if (usernameInput !== document.activeElement) {
       closePopup();
     }
   }
